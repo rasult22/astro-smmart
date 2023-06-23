@@ -5,18 +5,19 @@ import MetaTags from '~/components/common/MetaTags.astro';
 import BasicScripts from '~/components/common/BasicScripts.astro';
 
 import { MetaSEO } from '~/types';
-import { SITE } from '~/config.mjs';
+// import { SITE } from '~/config.mjs';
+import { getLangFromUrl } from '~/i18n/utils';
 
 export interface Props {
   meta?: MetaSEO;
 }
 
 const { meta = {} } = Astro.props;
-const { language = 'en', textDirection = 'ltr' } = SITE;
+const lang = getLangFromUrl(Astro.url);
 ---
 
 <!DOCTYPE html>
-<html lang={language} dir={textDirection} class="2xl:text-[20px]">
+<html lang={lang} class="2xl:text-[20px]">
   <head>
     <MetaTags {...meta} />
   </head>

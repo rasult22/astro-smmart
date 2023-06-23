@@ -1,18 +1,20 @@
 export const languages = {
   en: 'English',
-  fr: 'Français',
+  ru: 'Русский',
 };
 
 export const defaultLang = 'en';
 
 export const ui = {
   en: {
-    'nav.home': 'Home',
-    'nav.about': 'About',
-    'nav.twitter': 'Twitter',
+    'nav.download': 'Download',
+    'nav.contacts': 'Contacts',
+    'nav.blog': 'Blog',
   },
-  fr: {
-    'nav.home': 'Acceuil',
-    'nav.about': 'À propos',
+  ru: {
+    'nav.download': 'Скачать',
+    'nav.contacts': 'Контакты',
+    'nav.blog': 'Блог',
   },
 } as const;
+// sds

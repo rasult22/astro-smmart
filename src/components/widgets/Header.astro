@@ -6,6 +6,10 @@ import ToggleMenu from '~/components/common/ToggleMenu.astro';
 
 import { getHomePermalink, getAsset } from '~/utils/permalinks';
 
+import { getLangFromUrl, useTranslations } from '~/i18n/utils';
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
 interface Link {
   text?: string;
   href?: string;
@@ -43,7 +47,7 @@ const {
 <header
   class:list={[
     { sticky: isSticky, relative: !isSticky },
-    'top-0 z-40 flex-none mx-auto w-full transition-all ease-in duration-100',
+    'top-0 z-[140] py-2 flex-none mx-auto w-full transition-all ease-in duration-100',
   ]}
   id="header"
 >
@@ -76,13 +80,13 @@ const {
     </div>
     <ul class="app-menu app-menu--sm">
       <li class="app-menu__item app-menu__item--smooth">
-        <a href="#landing-form"> Скачать</a>
+        <a href="#landing-form"> {t('nav.download')}</a>
       </li>
       <li class="app-menu__item app-menu__item--smooth">
-        <a href="#33"> Контакты</a>
+        <a href="#33"> {t('nav.contacts')}</a>
       </li>
       <li class="app-menu__item">
-        <a href="/posts.html"> Блог</a>
+        <a href="/posts.html"> {t('nav.blog')}</a>
       </li>
     </ul>
   </div>
@@ -178,22 +182,36 @@ const {
     <div class="app-header__nav">
       <ul class="app-menu">
         <li class="app-menu__item app-menu__item--smooth">
-          <a href="#landing-form"> Скачать</a>
+          <a href="#landing-form"> {t('nav.download')}</a>
         </li>
         <li class="app-menu__item app-menu__item--smooth">
-          <a href="#33"> Контакты</a>
+          <a href="#33"> {t('nav.contacts')}</a>
         </li>
         <li class="app-menu__item">
-          <a href="/posts.html"> Блог</a>
+          <a href="/posts.html"> {t('nav.blog')}</a>
         </li>
       </ul>
     </div>
     <div class="app-header__locale-switcher">
       <div class="lang-switcher">
-        <div tabindex="0" data-lang="ru" data-active="true" class="lang-switcher__item lang-switcher__item--active">
+        <a
+          href="/ru"
+          tabindex="0"
+          data-lang="ru"
+          data-active={lang === 'ru'}
+          class={`lang-switcher__item ${lang === 'ru' ? 'lang-switcher__item--active' : ''}`}
+        >
           Рус
-        </div>
-        <div tabindex="0" data-lang="en" data-active="false" class="lang-switcher__item">Eng</div>
+        </a>
+        <a
+          href="/en"
+          tabindex="0"
+          data-lang="en"
+          data-active={lang === 'en'}
+          class={`lang-switcher__item ${lang === 'en' ? 'lang-switcher__item--active' : ''}`}
+        >
+          Eng
+        </a>
       </div>
     </div>
   </div>
