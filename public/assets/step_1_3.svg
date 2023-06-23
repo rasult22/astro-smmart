@@ -1,0 +1,15 @@
+<svg width="280" height="280" viewBox="0 0 280 280" fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+  <rect width="280" height="280" rx="15" fill="#F4F2FF"/>
+  <rect x="124.728" y="124.462" width="30.5436" height="30.5436" rx="10" fill="#CD15FF"/>
+  <rect x="124.728" y="162.924" width="30.5436" height="30.5436" rx="10" fill="#FFDB1C"/>
+  <rect x="124.728" y="86" width="30.5436" height="30.5436" rx="10" fill="#FF903F"/>
+  <rect x="86.8315" y="124.462" width="30.5436" height="30.5436" rx="10" fill="#5CE900"/>
+  <rect x="86.8315" y="162.924" width="30.5436" height="30.5436" rx="10" fill="#7C4DFF"/>
+  <rect x="86.8315" y="86" width="30.5436" height="30.5436" rx="10" fill="#7C4DFF"/>
+  <rect x="162.625" y="124.462" width="30.5436" height="30.5436" rx="10" fill="#448AFF"/>
+  <rect x="162.625" y="162.924" width="30.5436" height="30.5436" rx="10" fill="#7C4DFF"/>
+  <rect x="162.625" y="86" width="30.5436" height="30.5436" rx="10" fill="#FFDB1C"/>
+  <path d="M251 36.5V30.5M251 43C256.523 43 261 38.523 261 33C261 27.477 256.523 23 251 23C245.477 23 241 27.477 241 33C241 38.523 245.477 43 251 43Z" stroke="#448AFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M248 32.5L251 29.5L254 32.5" stroke="#448AFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

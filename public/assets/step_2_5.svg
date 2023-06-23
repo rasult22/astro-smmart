@@ -1,0 +1,15 @@
+<svg width="280" height="280" viewBox="0 0 280 280" fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+  <rect width="280" height="280" rx="15" fill="white"/>
+  <rect x="124.444" y="124.178" width="31.112" height="31.112" rx="10" fill="#CD15FF"/>
+  <rect x="124.444" y="163.356" width="31.112" height="31.112" rx="10" fill="#FFDB1C"/>
+  <rect x="124.444" y="85" width="31.112" height="31.112" rx="10" fill="#FF903F"/>
+  <rect x="85.842" y="124.178" width="31.112" height="31.112" rx="10" fill="#5CE900"/>
+  <rect x="85.842" y="163.356" width="31.112" height="31.112" rx="10" fill="#7C4DFF"/>
+  <rect x="85.842" y="85" width="31.112" height="31.112" rx="10" fill="#7C4DFF"/>
+  <rect x="163.046" y="124.178" width="31.112" height="31.112" rx="10" fill="#448AFF"/>
+  <rect x="163.046" y="163.356" width="31.112" height="31.112" rx="10" fill="#7C4DFF"/>
+  <rect x="163.046" y="85" width="31.112" height="31.112" rx="10" fill="#FFDB1C"/>
+  <path d="M249 19V22M257 19V22M244.5 26.09H261.5M262 25.5V34C262 37 260.5 39 257 39H249C245.5 39 244 37 244 34V25.5C244 22.5 245.5 20.5 249 20.5H257C260.5 20.5 262 22.5 262 25.5Z" stroke="#7C4DFF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M256.695 30.7H256.704M256.695 33.7H256.704M252.995 30.7H253.005M252.995 33.7H253.005M249.294 30.7H249.304M249.294 33.7H249.304" stroke="#7C4DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

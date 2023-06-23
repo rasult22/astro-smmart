@@ -1,23 +1,22 @@
 import defaultImage from './assets/images/default.png';
 
 const CONFIG = {
-  name: 'AstroWind',
+  name: 'SMMart',
 
   origin: 'https://astrowind.vercel.app',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'AstroWind — Free template for create a website with Astro + Tailwind CSS',
-  description:
-    '🚀 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.',
+  title: 'SMMart - AI ассистент',
+  description: 'SMMart - новая AI-система, которая генерирует тексты и изображения по твоему запросу в один клик.',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
 
-  language: 'en',
+  language: 'ru',
   textDirection: 'ltr',
 
-  dateFormatter: new Intl.DateTimeFormat('en', {
+  dateFormatter: new Intl.DateTimeFormat('ru', {
     year: 'numeric',
     month: 'short',
     day: 'numeric',

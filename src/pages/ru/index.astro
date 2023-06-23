@@ -1,0 +1,24 @@
+---
+import { SITE } from '~/config.mjs';
+import Layout from '~/layouts/PageLayout.astro';
+import Intro from '~/components/landing/intro.vue';
+import Advantages from '~/components/landing/advantages.vue';
+import WhyWe from '~/components/landing/why-we.vue';
+import Bonus from '~/components/landing/bonus.vue';
+import HowDoesItWork from '~/components/landing/how-does-it-work.vue';
+import BaseForm from '~/components/landing/base-form.vue';
+const meta = {
+  title: SITE.title,
+  description: SITE.description,
+  dontUseTitleTemplate: true,
+};
+---
+
+<Layout {meta}>
+  <Intro />
+  <Advantages />
+  <WhyWe />
+  <Bonus />
+  <HowDoesItWork />
+  <BaseForm />
+</Layout>
