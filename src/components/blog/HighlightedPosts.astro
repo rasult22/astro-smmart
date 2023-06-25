@@ -3,6 +3,8 @@ import Grid from '~/components/blog/Grid.astro';
 
 import { getBlogPermalink } from '~/utils/permalinks';
 import { findPostsByIds } from '~/utils/blog';
+import { getLangFromUrl } from '~/i18n/utils';
+const lang = getLangFromUrl(Astro.url);
 
 export interface Props {
   title?: string;
@@ -20,7 +22,7 @@ const {
   postIds = [],
 } = Astro.props;
 
-const posts = await findPostsByIds(postIds);
+const posts = await findPostsByIds(postIds, lang);
 ---
 
 <section class="px-4 py-16 mx-auto max-w-7xl lg:py-20">

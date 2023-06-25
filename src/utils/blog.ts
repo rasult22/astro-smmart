@@ -95,25 +95,25 @@ export const fetchPosts = async (lang: 'en' | 'ru'): Promise<Array<Post>> => {
   return _posts;
 };
 
-// Find blog posts by an array of slugs
-export const findPostsBySlugs = async (slugs: Array<string>): Promise<Array<Post>> => {
-  if (!Array.isArray(slugs)) return [];
+// // Find blog posts by an array of slugs
+// export const findPostsBySlugs = async (slugs: Array<string>): Promise<Array<Post>> => {
+//   if (!Array.isArray(slugs)) return [];
 
-  const posts = await fetchPosts();
+//   const posts = await fetchPosts();
 
-  return slugs.reduce(function (r: Array<Post>, slug: string) {
-    posts.some(function (post: Post) {
-      return slug === post.slug && r.push(post);
-    });
-    return r;
-  }, []);
-};
+//   return slugs.reduce(function (r: Array<Post>, slug: string) {
+//     posts.some(function (post: Post) {
+//       return slug === post.slug && r.push(post);
+//     });
+//     return r;
+//   }, []);
+// };
 
 // Find blog posts by an array of IDs
-export const findPostsByIds = async (ids: Array<string>): Promise<Array<Post>> => {
+export const findPostsByIds = async (ids: Array<string>, lang: 'en' | 'ru'): Promise<Array<Post>> => {
   if (!Array.isArray(ids)) return [];
 
-  const posts = await fetchPosts();
+  const posts = await fetchPosts(lang);
 
   return ids.reduce(function (r: Array<Post>, id: string) {
     posts.some(function (post: Post) {
@@ -124,17 +124,17 @@ export const findPostsByIds = async (ids: Array<string>): Promise<Array<Post>> =
 };
 
 // Find the latest blog posts (up to a specified count)
-export const findLatestPosts = async ({ count }: { count?: number }): Promise<Array<Post>> => {
+export const findLatestPosts = async ({ count }: { count?: number }, lang: 'en' | 'ru'): Promise<Array<Post>> => {
   const _count = count || 4; // Default to 4 if count is not specified
-  const posts = await fetchPosts();
+  const posts = await fetchPosts(lang);
 
   // Return the latest posts, up to the specified count
   return posts ? posts.slice(0, _count) : [];
 };
 
 // Find all unique tags across all blog posts
-export const findTags = async (): Promise<Array<string>> => {
-  const posts = await fetchPosts();
+export const findTags = async (lang: 'en' | 'ru'): Promise<Array<string>> => {
+  const posts = await fetchPosts(lang);
 
   // Extract all tags from the posts and return a unique array of tags
   const tags = posts.reduce((acc, post: Post) => {
@@ -147,8 +147,8 @@ export const findTags = async (): Promise<Array<string>> => {
 };
 
 // Find all unique categories across all blog posts
-export const findCategories = async (): Promise<Array<string>> => {
-  const posts = await fetchPosts();
+export const findCategories = async (lang: 'en' | 'ru'): Promise<Array<string>> => {
+  const posts = await fetchPosts(lang);
 
   // Extract all categories from the posts and return a unique array of categories
   const categories = posts.reduce((acc, post: Post) => {

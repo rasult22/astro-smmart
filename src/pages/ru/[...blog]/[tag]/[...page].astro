@@ -12,7 +12,7 @@ import Headline from '~/components/blog/Headline.astro';
 export async function getStaticPaths({ paginate }) {
   if (BLOG?.disabled || BLOG?.tag?.disabled) return [];
 
-  const posts = await fetchPosts();
+  const posts = await fetchPosts('ru');
   const tags = new Set();
   posts.map((post) => {
     Array.isArray(post.tags) && post.tags.map((tag) => tags.add(tag.toLowerCase()));
