@@ -67,8 +67,13 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
 };
 
 // Load all blog posts and normalize their data
-const load = async function (): Promise<Array<Post>> {
-  const posts = await getCollection('post');
+const load = async function (lang: 'en' | 'ru'): Promise<Array<Post>> {
+  let posts;
+  if (lang === 'en') {
+    posts = await getCollection('post_EN');
+  } else {
+    posts = await getCollection('post_RU');
+  }
   const normalizedPosts = posts.map(async (post) => await getNormalizedPost(post));
 
   // Sort the posts by publish date (newest first) and filter out any draft posts
@@ -82,9 +87,9 @@ const load = async function (): Promise<Array<Post>> {
 let _posts: Array<Post>;
 
 // Fetch all blog posts (cached for subsequent calls)
-export const fetchPosts = async (): Promise<Array<Post>> => {
+export const fetchPosts = async (lang: 'en' | 'ru'): Promise<Array<Post>> => {
   if (!_posts) {
-    _posts = await load();
+    _posts = await load(lang);
   }
 
   return _posts;
