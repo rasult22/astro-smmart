@@ -48,7 +48,7 @@ export const getCanonical = (path = ''): string | URL => {
 }
 
 // Get the permalink for a given slug and type
-export const getPermalink = (slug = '', type = 'page'): string => {
+export const getPermalink = (lang: 'ru' | 'en', slug = '', type = 'page'): string => {
   let permalink: string;
 
   switch (type) {
@@ -61,7 +61,7 @@ export const getPermalink = (slug = '', type = 'page'): string => {
       break;
 
     case 'post':
-      permalink = createPath(trimSlash(slug)); // Create post permalink
+      permalink = '/' + lang + createPath(trimSlash(slug)); // Create post permalink
       break;
 
     case 'page':
@@ -74,10 +74,10 @@ export const getPermalink = (slug = '', type = 'page'): string => {
 };
 
 // Get the permalink for the home page
-export const getHomePermalink = (): string => getPermalink('/');
+export const getHomePermalink = (): string => getPermalink('ru', '/');
 
 // Get the permalink for the blog page
-export const getBlogPermalink = (): string => getPermalink(BLOG_BASE);
+export const getBlogPermalink = (lang: 'ru' | 'en'): string => getPermalink(lang, BLOG_BASE);
 
 // Get the asset path by joining BASE_PATHNAME and the provided path
 export const getAsset = (path: string): string =>

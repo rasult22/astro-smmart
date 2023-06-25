@@ -9,6 +9,8 @@ import type { Post } from '~/types';
 import { getPermalink } from '~/utils/permalinks';
 import { findImage } from '~/utils/images';
 import { getFormattedDate } from '~/utils/utils';
+import { getLangFromUrl } from '~/i18n/utils';
+const lang = getLangFromUrl(Astro.url);
 
 export interface Props {
   post: Post;
@@ -17,7 +19,7 @@ export interface Props {
 const { post } = Astro.props;
 const image = await findImage(post.image);
 
-const link = !BLOG?.post?.disabled ? getPermalink(post.permalink, 'post') : '';
+const link = !BLOG?.post?.disabled ? getPermalink(lang, post.permalink, 'post') : '';
 ---
 
 <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${image ? 'md:grid-cols-2' : ''}`}>
@@ -52,7 +54,7 @@ const link = !BLOG?.post?.disabled ? getPermalink(post.permalink, 'post') : '';
               <>
                 {' '}
                 ·{' '}
-                <a class="capitalize hover:underline" href={getPermalink(post.category, 'category')}>
+                <a class="capitalize hover:underline" href={getPermalink(lang, post.category, 'category')}>
                   {post.category.replaceAll('-', ' ')}
                 </a>
               </>

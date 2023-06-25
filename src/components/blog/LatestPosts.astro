@@ -13,11 +13,10 @@ export interface Props {
   information?: string;
   postIds: string[];
 }
-
 const {
   title = await Astro.slots.render('title'),
   allPostsText = 'View all posts',
-  allPostsLink = getBlogPermalink(),
+  allPostsLink = getBlogPermalink(lang),
   information = await Astro.slots.render('information'),
   count = 4,
 } = Astro.props;

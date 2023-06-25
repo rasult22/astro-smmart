@@ -88,9 +88,7 @@ let _posts: Array<Post>;
 
 // Fetch all blog posts (cached for subsequent calls)
 export const fetchPosts = async (lang: 'en' | 'ru'): Promise<Array<Post>> => {
-  if (!_posts) {
-    _posts = await load(lang);
-  }
+  _posts = await load(lang);
 
   return _posts;
 };
