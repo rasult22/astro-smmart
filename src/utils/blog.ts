@@ -84,13 +84,9 @@ const load = async function (lang: 'en' | 'ru'): Promise<Array<Post>> {
   return results;
 };
 
-let _posts: Array<Post>;
-
 // Fetch all blog posts (cached for subsequent calls)
 export const fetchPosts = async (lang: 'en' | 'ru'): Promise<Array<Post>> => {
-  _posts = await load(lang);
-
-  return _posts;
+  return await load(lang);
 };
 
 // // Find blog posts by an array of slugs
