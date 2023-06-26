@@ -77,7 +77,7 @@ export const getPermalink = (lang: 'ru' | 'en', slug = '', type = 'page'): strin
 export const getHomePermalink = (): string => getPermalink('ru', '/');
 
 // Get the permalink for the blog page
-export const getBlogPermalink = (lang: 'ru' | 'en'): string => getPermalink(lang, BLOG_BASE);
+export const getBlogPermalink = (lang: 'ru' | 'en'): string => '/' + lang + getPermalink(lang, BLOG_BASE);
 
 // Get the asset path by joining BASE_PATHNAME and the provided path
 export const getAsset = (path: string): string =>

@@ -11,7 +11,7 @@ const CONFIG = {
   description: 'SMMart - новая AI-система, которая генерирует тексты и изображения по твоему запросу в один клик.',
   defaultImage: defaultImage,
 
-  defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  defaultTheme: 'light', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
 
   language: 'ru',
   textDirection: 'ltr',
