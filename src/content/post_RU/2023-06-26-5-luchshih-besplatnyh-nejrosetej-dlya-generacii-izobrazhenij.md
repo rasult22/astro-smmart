@@ -5,7 +5,6 @@ description: Обзор пяти лучших бесплатных инстру�
 tags:
   - AI
   - text-to-image
-canonical: https://smm.art/ru/5-luchshih-besplatnyh-nejrosetej-dlya-generacii-izobrazhenij
 ---
 
 # Введение
