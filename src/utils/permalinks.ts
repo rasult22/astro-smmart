@@ -53,11 +53,11 @@ export const getPermalink = (lang: 'ru' | 'en', slug = '', type = 'page'): strin
 
   switch (type) {
     case 'category':
-      permalink = createPath(CATEGORY_BASE, trimSlash(slug)); // Create category permalink
+      permalink =  '/' + lang + createPath(CATEGORY_BASE, trimSlash(slug)); // Create category permalink
       break;
 
     case 'tag':
-      permalink = createPath(TAG_BASE, trimSlash(slug)); // Create tag permalink
+      permalink =  '/' + lang + createPath(TAG_BASE, trimSlash(slug)); // Create tag permalink
       break;
 
     case 'post':
