@@ -30,6 +30,26 @@ export interface Props {
 const { isSticky = false } = Astro.props;
 ---
 
+<script>
+  menuLogic();
+  function menuLogic() {
+    var burger = document.querySelector('#burger');
+    var closemenu = document.querySelector('#close-menu');
+    var menu = document.querySelector('#mobile-menu');
+
+    if (closemenu && burger) {
+      closemenu.addEventListener('click', function () {
+        if (menu) {
+          menu.style.display = 'none';
+        }
+      });
+
+      burger.addEventListener('click', function () {
+        menu.style.display = 'block';
+      });
+    }
+  }
+</script>
 <header
   class:list={[
     { sticky: isSticky, relative: !isSticky },
