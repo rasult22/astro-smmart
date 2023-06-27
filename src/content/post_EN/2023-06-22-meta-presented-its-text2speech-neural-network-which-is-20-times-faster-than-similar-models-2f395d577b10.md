@@ -9,8 +9,6 @@ tags:
   - AI
   - artificial intelligence
   - neural networks
-  - Voicebox
-  - Meta
   - SMMart
 ---
 

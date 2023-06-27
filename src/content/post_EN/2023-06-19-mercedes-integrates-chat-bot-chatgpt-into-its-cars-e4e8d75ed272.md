@@ -8,7 +8,6 @@ tags:
   - AI
   - artificial intelligence
   - ChatGPT
-  - Mercedes
   - SMMart
 publishDate: 2023-06-19T00:00:00Z
 ---

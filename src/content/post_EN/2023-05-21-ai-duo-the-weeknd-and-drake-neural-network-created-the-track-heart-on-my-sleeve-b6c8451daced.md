@@ -8,8 +8,6 @@ category: AI
 tags:
   - AI
   - music
-  - The Weeknd
-  - Drake
   - neural networks
   - copyright
   - SMMart

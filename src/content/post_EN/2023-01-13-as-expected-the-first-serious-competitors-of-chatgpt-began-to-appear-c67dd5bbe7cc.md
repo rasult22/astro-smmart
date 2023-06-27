@@ -7,10 +7,8 @@ excerpt: Meet Claude, a new competitor to ChatGPT from Anthropic, founded by for
 category: AI
 tags:
   - Claude
-  - Anthropic
   - ChatGPT
   - chatbot
-  - language prediction model
   - machine learning
   - technology
 ---

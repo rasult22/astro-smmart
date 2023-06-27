@@ -9,8 +9,6 @@ tags:
   - AI
   - neural networks
   - artificial intelligence
-  - Rows
-  - AI Analyst
   - SMMart
 ---
 

@@ -6,13 +6,7 @@ excerpt: An engineer and marketer from Portugal launched an experiment in which 
 category: AI
 tags:
   - ChatGPT
-  - startup
-  - entrepreneurship
   - GPT-4
-  - AIsthetic Apparel
-  - online store
-  - eco-T-shirts
-  - business plan
 ---
 
 João Ferrão dos Santos, an engineer and marketer from Portugal, has launched a new challenge, the progress of which can be watched on his LinkedIn page.

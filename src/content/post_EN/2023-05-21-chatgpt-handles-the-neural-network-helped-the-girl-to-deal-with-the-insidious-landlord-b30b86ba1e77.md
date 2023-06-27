@@ -8,7 +8,6 @@ category: AI
 tags:
   - AI
   - ChatGPT
-  - legal disputes
   - SMMart
 ---
 

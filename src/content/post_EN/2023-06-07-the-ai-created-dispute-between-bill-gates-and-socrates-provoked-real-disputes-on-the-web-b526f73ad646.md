@@ -7,7 +7,6 @@ category: AI
 tags:
   - AI
   - artificial intelligence
-  - neural networks
   - SMMart
 publishDate: 2023-06-07T00:00:00Z
 ---

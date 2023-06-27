@@ -8,7 +8,6 @@ category: AI
 tags:
   - AI
   - photography
-  - creativity
   - SMMart
 ---
 Recently, German photographer Boris Eldagsen won the Sony World Photography Awards 2023 international photo contest, but he did it for the sake of public discourse. Therefore, he refused the $5,000 reward.

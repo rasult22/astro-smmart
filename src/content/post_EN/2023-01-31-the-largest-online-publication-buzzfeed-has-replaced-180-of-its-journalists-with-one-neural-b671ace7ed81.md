@@ -6,7 +6,6 @@ description: Buzzfeed has replaced 180 journalists with a neural network to crea
 excerpt: Buzzfeed has replaced 180 journalists with a neural network to create personalized tests and quizzes using AI capabilities. The publication plans to introduce the well-known ...
 category: AI
 tags:
-  - Buzzfeed
   - neural network
   - ChatGPT
   - AI-generated content

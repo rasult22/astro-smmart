@@ -8,10 +8,6 @@ category: AI
 tags:
   - AI
   - artificial intelligence
-  - medicine
-  - antibiotics
-  - superbugs
-  - Acinetobacter baumannii
   - SMMart
 ---
 Recently, the results of an interesting study were published in the scientific journal Nature Chemical Biology. A group of scientists using algorithms of trained artificial intelligence identified a new antibiotic abaucin, which destroys a deadly type of superbugs.

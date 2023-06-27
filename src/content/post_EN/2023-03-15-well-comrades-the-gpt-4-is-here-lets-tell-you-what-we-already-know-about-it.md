@@ -11,7 +11,6 @@ tags:
   - text analysis
   - code generation
   - photo recognition
-  - creative AI
 ---
 
 Well, comrades, the GPT-4 is here! Let’s tell you what we already know about it ❤️‍🔥.

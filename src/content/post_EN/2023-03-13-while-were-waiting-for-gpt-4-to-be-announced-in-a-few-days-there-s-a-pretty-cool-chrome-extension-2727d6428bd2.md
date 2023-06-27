@@ -10,9 +10,6 @@ tags:
   - ChatGPT
   - language customization
   - GPT-4
-  - text generation
-  - video generation
-  - picture generation
   - music generation
 ---
 

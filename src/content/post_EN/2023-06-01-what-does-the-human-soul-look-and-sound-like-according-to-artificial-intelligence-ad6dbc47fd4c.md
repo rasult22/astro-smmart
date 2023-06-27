@@ -10,7 +10,6 @@ tags:
   - neural networks
   - GPT-4
   - ChatGPT-4
-  - human soul
   - SMMart
 ---
 

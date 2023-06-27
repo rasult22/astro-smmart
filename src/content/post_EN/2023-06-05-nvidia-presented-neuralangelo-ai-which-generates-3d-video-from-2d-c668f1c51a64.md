@@ -8,8 +8,6 @@ tags:
   - AI
   - artificial intelligence
   - neural networks
-  - Neuralangelo
-  - Nvidia
   - SMMart
 publishDate: 2023-06-05T00:00:00Z
 ---

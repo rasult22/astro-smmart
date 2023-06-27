@@ -7,9 +7,7 @@ excerpt: This article discusses the introduction of a multimodal neural network 
 category: AI
 tags:
   - AI
-  - artificial intelligence
   - neural networks
-  - Meta
   - SMMart
 ---
 

@@ -10,7 +10,6 @@ tags:
   - Claudia
   - neural networks
   - fake identities
-  - Reddit
   - SMMart
 ---
 

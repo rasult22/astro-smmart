@@ -7,9 +7,6 @@ excerpt: This article introduces several neural networks that can help music lov
 category: AI
 tags:
   - neural networks
-  - music lovers
-  - PlaylistAI
-  - Natural Language Playlist
   - music generation
 ---
 

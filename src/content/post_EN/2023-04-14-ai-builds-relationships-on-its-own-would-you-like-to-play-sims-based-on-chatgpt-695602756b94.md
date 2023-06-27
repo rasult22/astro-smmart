@@ -6,13 +6,9 @@ description: This article discusses the creation of Smallville, a virtual town i
 excerpt: This article discusses the creation of Smallville, a virtual town inhabited by NPCs controlled by artificial intelligence based on ChatGPT. Each of the 25 characters has its...
 category: AI
 tags:
-  - Stanford
   - NPCs
   - ChatGPT
   - AI
-  - gaming
-  - human behavior
-  - simulations
 ---
 
 The guys-scientists from Stanford have created a virtual town of Smallville, inhabited by 25 characters, each of which has its own character, and also memories. That is, a person. But the most interesting thing is that each of the NPCs is controlled by artificial intelligence based on ChatGPT.

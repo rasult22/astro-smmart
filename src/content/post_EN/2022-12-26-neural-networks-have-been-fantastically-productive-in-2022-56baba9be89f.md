@@ -8,9 +8,6 @@ category: AI
 tags:
   - ChatGPT
   - Midjourney
-  - Lensa
-  - ProfilePicture
-  - QQ
   - SMMart
 ---
 

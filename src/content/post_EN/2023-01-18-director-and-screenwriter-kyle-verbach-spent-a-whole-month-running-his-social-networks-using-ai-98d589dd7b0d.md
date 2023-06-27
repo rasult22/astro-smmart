@@ -9,7 +9,6 @@ tags:
   - Stable Diffusion
   - neural network
   - social networks
-  - AI-generated content
   - machine learning
   - technology
 ---

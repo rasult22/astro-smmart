@@ -9,7 +9,6 @@ tags:
   - AI
   - neural networks
   - advertising
-  - BrXnd
   - SMMart
 ---
 The advertising created by neural networks was able to deceive marketing experts and, in general, turned out to be almost indistinguishable from human-created content.

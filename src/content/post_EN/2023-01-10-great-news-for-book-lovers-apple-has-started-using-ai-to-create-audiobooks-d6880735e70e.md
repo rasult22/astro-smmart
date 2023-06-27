@@ -6,8 +6,6 @@ description: Apple is using AI to create audiobooks that are almost like real na
 excerpt: And this is not just voicing the text with a robotic voice, but almost a real narrative, since the digital storyteller is trained on the...
 category: AI
 tags:
-  - Apple
-  - audiobooks
   - AI
   - machine learning
   - technology

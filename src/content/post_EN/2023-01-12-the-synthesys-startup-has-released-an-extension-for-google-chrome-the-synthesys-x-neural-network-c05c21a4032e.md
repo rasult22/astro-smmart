@@ -6,7 +6,6 @@ description: Synthesys has released an extension for Google Chrome that generate
 excerpt: Synthesys startup has released an extension for Google Chrome — the Synthesys X neural network, which generates images in a couple of mouse clicks right in the browse...
 category: AI
 tags:
-  - Synthesys X
   - neural network
   - image generation
   - machine learning

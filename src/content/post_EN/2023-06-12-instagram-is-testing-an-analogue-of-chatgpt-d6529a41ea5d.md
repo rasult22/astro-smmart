@@ -10,7 +10,6 @@ tags:
   - artificial intelligence
   - neural networks
   - SMMart
-  - Instagram
   - social media
 ---
 

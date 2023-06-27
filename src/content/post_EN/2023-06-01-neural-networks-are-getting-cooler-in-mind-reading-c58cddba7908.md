@@ -7,10 +7,8 @@ excerpt: This article discusses MinD-Video, a neural network model created by re
 category: AI
 tags:
   - AI
-  - MinD-Video
   - StableDiffusion
   - neural networks
-  - mind-reading technology
   - SMMart
 ---
 

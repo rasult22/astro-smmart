@@ -6,10 +6,6 @@ excerpt: This article provides a list of several neural networks that assist wit
 category: AI
 tags:
   - neural networks
-  - health
-  - beauty
-  - AweMyFace
-  - Welltory
   - AI technology
 ---
 

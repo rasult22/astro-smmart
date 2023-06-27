@@ -6,8 +6,6 @@ description: DoNotPay, an AI lawyer chatbot developed by Joshua Browder, will be
 excerpt: DoNotPay, a chatbot developed by Joshua Browder, will become the world's first automatic device to help defendants in real time in a real court. Trained in legal information, D...
 category: AI
 tags:
-  - DoNotPay
-  - AI lawyer
   - chatbot
   - legal information
   - machine learning

@@ -7,14 +7,7 @@ excerpt: GPT-4 offers tips for running a successful online business, as demonstr
 category: AI
 tags:
   - GPT-4
-  - business coach
   - online business
-  - start-up capital
-  - business plan
-  - content plan
-  - partner programs
-  - visual tips
-  - success
 ---
 
 One bold and very enterprising experimenter entrusted the neural network with a start-up capital of $ 100 and instructed her to develop a plan on how to squeeze more profit out of this money.

@@ -6,8 +6,6 @@ excerpt: This article discusses the announcement of a new neural network called 
 category: AI
 tags:
   - AI
-  - Drag You GAN
-  - photo editing
   - neural networks
   - SMMart
 ---

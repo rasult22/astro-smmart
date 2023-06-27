@@ -6,7 +6,6 @@ excerpt: This article discusses Marvel Studios' use of an AI-generated intro for
 publishDate: 2023-06-26T00:00:00Z
 category: AI
 tags:
-  - Marvel
   - artificial intelligence
   - neural networks
   - SMMart

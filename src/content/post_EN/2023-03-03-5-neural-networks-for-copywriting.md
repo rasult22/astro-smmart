@@ -5,12 +5,8 @@ description: There are now several AI-based services that can help with copywrit
 excerpt: There are now several AI-based services that can help with copywriting, such as ChatGPT, Copy Monkey, CopyAI, Anyword, and Writesonic. These services...
 category: AI
 tags:
-  - AI-based services
   - copywriting
   - ChatGPT
-  - CopyAI
-  - Anyword
-  - Writesonic
   - SMMart app
   - content creation
 ---

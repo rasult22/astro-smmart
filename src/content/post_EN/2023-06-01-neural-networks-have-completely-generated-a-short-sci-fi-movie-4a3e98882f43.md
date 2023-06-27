@@ -8,10 +8,7 @@ tags:
   - AI
   - artificial intelligence
   - neural networks
-  - Gen-2
   - ChatGPT
-  - ElevenLabs
-  - Mubert
   - SMMart
 publishDate: 2023-06-01T04:09:00Z
 ---
